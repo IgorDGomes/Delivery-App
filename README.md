@@ -18,5 +18,9 @@
 3. Third Commit
     - Add "api-com-bun" repository
     - "api-com-bun" missing files, node_modules broken
-    - Set API
     - Didn't integrate with API (instead make it "work" using MSW)
+    - Set API
+
+4. Fourth Commit
+    - Set up mock files
+    - Test end to end with Playwright

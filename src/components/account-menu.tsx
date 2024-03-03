@@ -82,11 +82,10 @@ export function AccountMenu() {
             </DropdownMenuItem>
           </DialogTrigger>
           <DropdownMenuItem
-            asChild
             className="text-red-500 dark:text-red-400"
             disabled={isSigningOut}
           >
-            <button className="w-full" onClick={() => signOutFn()}>
+            <button onClick={() => signOutFn()}>
               <LogOut className="mr-2 h-4 w-4" />
             </button>
             <span>Exit</span>
